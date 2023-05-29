@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/nellis-auction-bid-calculator/static/css/main.5d5b877f.css",
-    "main.js": "/nellis-auction-bid-calculator/static/js/main.d076b219.js",
+    "main.js": "/nellis-auction-bid-calculator/static/js/main.d3d2cf90.js",
     "static/js/787.8786f230.chunk.js": "/nellis-auction-bid-calculator/static/js/787.8786f230.chunk.js",
     "index.html": "/nellis-auction-bid-calculator/index.html",
     "main.5d5b877f.css.map": "/nellis-auction-bid-calculator/static/css/main.5d5b877f.css.map",
-    "main.d076b219.js.map": "/nellis-auction-bid-calculator/static/js/main.d076b219.js.map",
+    "main.d3d2cf90.js.map": "/nellis-auction-bid-calculator/static/js/main.d3d2cf90.js.map",
     "787.8786f230.chunk.js.map": "/nellis-auction-bid-calculator/static/js/787.8786f230.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5d5b877f.css",
-    "static/js/main.d076b219.js"
+    "static/js/main.d3d2cf90.js"
   ]
 }
