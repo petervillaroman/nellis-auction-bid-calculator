@@ -12,6 +12,11 @@ function App() {
   const [finalPrice, setFinalPrice] = useState('');
   const [state, setState] = useState('Nevada');
 
+  function validateAndSetBidPrice(value) {
+    const onlyNums = value.replace(/[^0-9]/g, '');
+    setBidPrice(onlyNums);
+}
+
   const calculatePrice = () => {
     if (isNaN(bidPrice) || bidPrice === '') {
       alert(" Oops! That was not a valid number. Try again...");
@@ -32,7 +37,9 @@ function App() {
             <option key={state} value={state}>{state}</option>
           ))}
         </select>
-        <input type="text" placeholder="Enter your bid price" value={bidPrice} onChange={e => setBidPrice(e.target.value)} />
+        <input type="number" placeholder="Enter your bid price" value={bidPrice} onChange={e => validateAndSetBidPrice(e.target.value)} />
+
+ 
         <button onClick={calculatePrice}>Calculate</button>
         <p>Final Price: {finalPrice}</p>
       </div>
