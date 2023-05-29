@@ -30,8 +30,9 @@ function App() {
 
   return (
     <div className="App">
-      <div className="container">
-        <h1>Bid Price Calculator</h1>
+      
+        <h1>Nellis Auction</h1>
+        <h2>Final Bid Price Calculator</h2>
         <select value={state} onChange={e => setState(e.target.value)}>
           {Object.keys(taxRates).map((state) => (
             <option key={state} value={state}>{state}</option>
@@ -42,7 +43,7 @@ function App() {
  
         <button onClick={calculatePrice}>Calculate</button>
         <p>Final Price: {finalPrice}</p>
-      </div>
+      
     </div>
   );
 }
