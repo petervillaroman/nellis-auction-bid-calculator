@@ -38,11 +38,11 @@ function App() {
             <option key={state} value={state}>{state}</option>
           ))}
         </select>
-        <input type="number" placeholder="Enter your bid price" value={bidPrice} onChange={e => validateAndSetBidPrice(e.target.value)} />
+        <input type="text" placeholder="Enter your bid price" value={bidPrice} onChange={e => validateAndSetBidPrice(e.target.value)} />
 
  
         <button onClick={calculatePrice}>Calculate</button>
-        <p>Final Price: {finalPrice}</p>
+        <p>Final Price: <b>{finalPrice}</b></p>
       
     </div>
   );
