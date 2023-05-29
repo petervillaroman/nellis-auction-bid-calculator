@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/nellis-auction-bid-calculator/static/css/main.8bd43d7a.css",
+    "main.js": "/nellis-auction-bid-calculator/static/js/main.bb3ad64a.js",
+    "static/js/787.8786f230.chunk.js": "/nellis-auction-bid-calculator/static/js/787.8786f230.chunk.js",
+    "index.html": "/nellis-auction-bid-calculator/index.html",
+    "main.8bd43d7a.css.map": "/nellis-auction-bid-calculator/static/css/main.8bd43d7a.css.map",
+    "main.bb3ad64a.js.map": "/nellis-auction-bid-calculator/static/js/main.bb3ad64a.js.map",
+    "787.8786f230.chunk.js.map": "/nellis-auction-bid-calculator/static/js/787.8786f230.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8bd43d7a.css",
+    "static/js/main.bb3ad64a.js"
+  ]
+}
