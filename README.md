@@ -15,7 +15,7 @@ That's still $220 below retail... right?
 
 # Actually...
 
-The final price with tax, and the nellis auction 10% fee is $721.89. You'd still be saving $80 off the retail price, but maybe it'd be better to just bid another day. (Sorry spencer)
+The final price with tax, and the nellis auction 10% fee is $721.89. You'd still be saving $80 off the retail price, but maybe it'd be better to just bid another day. (Sorry Spencer)
 
 ## Solution:
 
