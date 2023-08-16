@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/nellis-auction-bid-calculator/static/css/main.5d5b877f.css",
-    "main.js": "/nellis-auction-bid-calculator/static/js/main.734b9073.js",
+    "main.css": "/nellis-auction-bid-calculator/static/css/main.b610f67a.css",
+    "main.js": "/nellis-auction-bid-calculator/static/js/main.5cfe3803.js",
     "static/js/787.8786f230.chunk.js": "/nellis-auction-bid-calculator/static/js/787.8786f230.chunk.js",
     "index.html": "/nellis-auction-bid-calculator/index.html",
-    "main.5d5b877f.css.map": "/nellis-auction-bid-calculator/static/css/main.5d5b877f.css.map",
-    "main.734b9073.js.map": "/nellis-auction-bid-calculator/static/js/main.734b9073.js.map",
+    "main.b610f67a.css.map": "/nellis-auction-bid-calculator/static/css/main.b610f67a.css.map",
+    "main.5cfe3803.js.map": "/nellis-auction-bid-calculator/static/js/main.5cfe3803.js.map",
     "787.8786f230.chunk.js.map": "/nellis-auction-bid-calculator/static/js/787.8786f230.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5d5b877f.css",
-    "static/js/main.734b9073.js"
+    "static/css/main.b610f67a.css",
+    "static/js/main.5cfe3803.js"
   ]
 }
