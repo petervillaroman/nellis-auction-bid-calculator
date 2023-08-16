@@ -53,8 +53,9 @@ function App() {
 
    <div className="Container">
        <div>
-      < h1>Nellis Auction Customer Bid Tools</h1>
+      <h1>Nellis Auction Customer Bid Tools</h1>
            <h2>Set your state</h2>
+
         <select value={state} onChange={e => setState(e.target.value)}>
           {Object.keys(taxRates).map((state) => (
             <option key={state} value={state}>{state}</option>
@@ -64,7 +65,7 @@ function App() {
    </div>
    <div className="Container">
     <div className="App">
-      
+
 
         <h2>If you bid:</h2>
 
@@ -73,7 +74,7 @@ function App() {
         <h2> Your total price will be:</h2>
         <button onClick={calculateBidTotal}>Calculate</button>
         <p>Total Price: <b>{finalPrice}</b></p>
-      
+
     </div>
 
       <div className="App">
