@@ -59,3 +59,34 @@ body {
     width: 80%; /* Adjust input width for mobile */
   }
 }
+
+
+/* Landing Block Styles */
+.landing-block {
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+  background-color: #ffffff;  /* You can adjust this color as needed */
+  border-bottom: 1px solid #e0e0e0;  /* A subtle divider for design purposes */
+}
+
+.tool-name {
+  font-size: 24px;  /* Larger font for the tool name */
+  color: #333;
+  margin-bottom: 10px;  /* Space between the title and the description */
+}
+
+.tool-description {
+  font-size: 16px;  /* Readable font size for mobile */
+  color: #666;  /* A slightly muted color for the description */
+}
+
+/* Mobile breakpoints */
+@media (max-width: 767px) {
+  .landing-block {
+    padding: 15px;  /* Adjusting padding for mobile */
+  }
+  .tool-name {
+    font-size: 20px;  /* Slightly smaller font for the tool name on mobile */
+  }
+}

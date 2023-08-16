@@ -51,9 +51,12 @@ function App() {
   return (
       <>
 
+          <div className="landing-block">
+        <h1 className="tool-name">Nellis Auction Customer Bid Tools</h1>
+        <p className="tool-description">Easily calculate your bid price based on state taxes and other factors. Stay informed and make better bidding decisions!</p>
+      </div>
    <div className="Container">
        <div>
-      <h1>Nellis Auction Customer Bid Tools</h1>
            <h2>Set your state</h2>
 
         <select value={state} onChange={e => setState(e.target.value)}>
